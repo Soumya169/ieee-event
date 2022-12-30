@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'poppins', serif;
+}
+
+
+.container{
+    
+    width: 100%;
+    height: 100vh;
+    background-image: url(background1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(49, 83, 233);
+    display: flex;
+    justify-content: center;
+    padding: 15vh;
+}
+.container h1{
+    font-size: 60px;
+    font-weight: 500;
+font-style: calc();
+}
+
+span{
+    color: aqua;
+}
+.maindiv{
+    width: 70%;
+    height: 350px;
+    position: absolute;
+    left: 50%;
+    top: 65%;
+    transform: translate(-50%, -50%);
+    background-image: url(event2.jpg);
+    background-size: 100% 100%;
+    box-shadow: 1px 2px 5px 5px white;
+    animation: slider 30s infinite linear;
+
+}
+@keyframes slider{
+  0%{ background-image: url(eventimage1.jpg); }
+  10%{ background-image: url(eventimage2.jpg); }
+  20%{ background-image: url(eventimage3.jpg); }
+  30%{ background-image: url(eventimage4.jpg); }
+  40%{ background-image: url(eventimage5.jpg) ;}
+  50%{ background-image: url(eventimage6.jpg) ;}
+  60%{ background-image: url(eventimage7.jpg) ;}
+  70%{ background-image: url(eventimage8.jpg) ;}
+ 
+}
+
